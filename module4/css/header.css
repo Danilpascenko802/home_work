@@ -1,0 +1,124 @@
+.water{
+max-width: 1200px;
+/* display: flex;
+justify-content: center; */
+}
+
+
+.header{
+
+}
+
+
+.section{
+    
+}
+
+.menu{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    color: #95e1d3;
+    margin-bottom: 130px;
+}
+
+
+.logo{
+    font-size: 30px;
+    text-align: left;
+    max-width: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #95e1d3;
+}
+
+
+.nav{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.nav_item{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.nav_item:hover{
+    color: #f38181;
+    border: 10px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #f38181;
+}
+
+.cards_title{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; Оно у меня почему то не роботает( */
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    
+}
+
+.work_with{
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 24px;
+    
+}
+
+
+.services{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 3px solid #f38181;
+    padding-bottom: 45px;
+}
+
+.ricardo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    /* margin-left: 350px; */
+}
+.cards{
+    display: flex;
+    max-width: 1200px;
+
+}
+.card{
+    width: 350px;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+
+.card::before{
+content: "";
+background-image: url(../img/IMAGE.jpg);
+}
+
+.card_logo{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.card_text{
+    font-size: 15px;
+    width: 260px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #a6a6a6;
+}
+

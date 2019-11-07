@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+a{
+    text-decoration: none;
+    color: brown
+}
+button{
+    outline: none;
+}
+li{
+    list-style-type: none;
+}
+
