@@ -1,0 +1,272 @@
+body{
+    /* margin-left: 120px; */
+}
+
+
+.main{}
+
+.team{}
+
+.section{
+    /* text-align: center; */
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.who_we_are{
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive; 
+    font-weight: 700;
+}
+
+.our_team{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+    margin-bottom: 45px;
+}
+
+.team_text{
+    text-align: center;
+    margin-top: auto;
+    margin-left: 10%;
+    margin-left: 250px;
+
+    
+}
+.team_text2{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 950px;
+    color: #a6a6a6;
+    margin-bottom: 100px;
+}
+
+
+
+
+/* ---------------------------------------------------- */
+.cards{
+    position: relative;
+    height: 490px;
+}
+
+.team_card{
+text-align: center;
+width: 380px;
+position: relative;
+}
+.team_card:hover{
+   /*   position: absolute;
+    bottom: 10px;
+    left: -10px; */ 
+}
+
+.hidden_box{
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient(to top,  rgb(252,227,138) 0%, rgb(243,129,129) 100%); 
+    width: 380px;
+    height: 470px;
+    opacity: 0.9;
+    
+}
+
+.hidden_box:hover{
+
+box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+transition-duration: 2s;
+position: absolute;
+top: -10px;
+left: -10px;
+}
+.team_member_photo{
+width: 380px;
+position: relative;
+}
+
+.team_member_photo:hover{
+    opacity: 0.3;
+    transition-duration: 2s;
+}
+.hidden_box:hover>.social_block{
+opacity: 1;
+transition-duration: 1s;
+}
+
+.social_block{
+opacity: 0;
+position: absolute;
+transform: translate(50%, -50%);  
+right: 50%;
+bottom: 50%;
+}
+/*  .social_link{
+    
+    width: 60px;
+    height: 60px;
+    margin-right: 1px;
+    z-index: 5;
+    
+}   */
+.first-card{
+    width: 50px;
+    height: 50px;
+}
+.face{
+
+}
+.tw{
+
+}
+.pin{
+}
+.inst{
+
+}
+
+
+
+
+
+
+
+
+.social_acion{
+    background-color: #fce38a;
+  
+    padding: 13px;
+ 
+}
+.social_acion:hover{
+    background-color: #95e1d3;
+    transition-duration: 1s;
+}
+.man_info{
+   text-align: center;
+}
+
+.man_name{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    width: 380px;
+    color: #a6a6a6;
+    margin-right: 15px;
+}
+
+.man_job{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 380px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mans_info{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+.man_name{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 380px;
+    margin-top: 30px;
+}
+
+.mans_job{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    width: 380px;
+    color: #a6a6a6;
+    margin-right: 15px;
+
+}
+
+
+
+
+
+
+
+ /*   */ /*  */   /*  */ /*   */ /*  */ /*   */ /*  */ /*   */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */  /*  */ /*  */
+
+
+
+
+ 
+
+.mans_info{
+    text-align: center;
+}
+
+.mans_job{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.div_img{
+position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

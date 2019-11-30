@@ -1,5 +1,5 @@
 .water{
-max-width: 1200px;
+max-width: 1500px;
 /* display: flex;
 justify-content: center; */
 }
@@ -20,6 +20,7 @@ justify-content: center; */
     justify-content: space-around;
     color: #95e1d3;
     margin-bottom: 130px;
+    margin-left: 50px;
 }
 
 
@@ -53,7 +54,9 @@ justify-content: center; */
     padding-bottom: 12px;
     border-bottom: 3px solid #f38181;
 }
-
+.section{
+    /* margin: auto; */
+}
 .cards_title{
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +66,7 @@ justify-content: center; */
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 14px;
-    
+    margin-right: auto;
 }
 
 .work_with{
@@ -79,15 +82,35 @@ justify-content: center; */
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    border-bottom: 3px solid #f38181;
-    padding-bottom: 45px;
+    padding-bottom: 15px;
+    margin: auto;
+    /* border-bottom: 3px solid #f38181;
+    padding-bottom: 45px; */
+}
+.services::after{
+content: "";
+width: 50px;
+height: 3px;
+display: block;
+background-color: #f38181;
+margin-left: 42%;
 }
 
-.ricardo{
+.our_team::after{
+    content: "";
+    width: 70px;
+    height: 3px;
+    display: block;
+    background-color: #f38181;
+    margin-left: 47%;
+    } 
+
+    
+.cards{
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-    /* margin-left: 350px; */
+    margin-left: 150px;
 }
 .cards{
     display: flex;
@@ -97,14 +120,47 @@ justify-content: center; */
 .card{
     width: 350px;
     flex-wrap: wrap;
-    width: 400px;
+    width: 360px;
+    margin-bottom: 100px;
 }
 
 
-.card::before{
+
+
+.card_logo::before{
 content: "";
-background-image: url(../img/IMAGE.jpg);
+width: 32px;
+height: 32px;
+background-repeat: no-repeat;
+background-size: cover;
+vertical-align: middle;
+display: inline-block;
+margin-right: 30px;
+margin-top: 12px;
 }
+
+
+.alarm::before{
+background-image: url(../img/ALARM.png);
+}
+.line::before{
+    background-image: url(../img/LINE\ GRAPH.png);
+}
+.computer::before{
+    background-image: url(../img/COMPUTER\ _\ OK.png);
+    width: 35px;
+}
+.book::before{
+    background-image: url(../img/BOOK\ 2.png);
+}
+.home::before{
+    background-image: url(../img/HOME.png);
+}
+.image::before{
+    background-image: url(../img/IMAGE.png);
+}
+
+
 
 .card_logo{
     font-size: 16px;
@@ -120,5 +176,34 @@ background-image: url(../img/IMAGE.jpg);
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #a6a6a6;
+    margin-left: 62px;
+
 }
+
+.titles{
+    margin: auto;
+}
+
+
+
+
+
+ */
+
+/* 
+--------------------------------------------------------------- 
+
+--------------------------------------------------------------- 
+
+--------------------------------------------------------------- 
+
+--------------------------------------------------------------- 
+
+---------------------------------------------------------- 
+
+--------------------------------------------------------------- 
+
+--------------------------------------------------------------- */
+
+
 
