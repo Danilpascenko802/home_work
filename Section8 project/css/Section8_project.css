@@ -1,0 +1,91 @@
+.section8{
+background-image: url(../img/section8_background.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 360px;
+height: auto;
+}
+
+.section8__text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+
+.section8__text--title{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+.section8__text--title::before{
+content: "[";
+color: #fec12b;
+}
+.section8__text--title::after{
+content: "]";
+color: #fec12b;
+}
+
+.section8__text--info{
+font-size: 16px;
+font-family: 'Didact Gothic', sans-serif;
+font-weight: 600;
+width: 200px;
+text-align: center;
+margin: auto;
+color: #ffffff;
+}
+
+
+
+
+.section8__sertificate{
+position: relative;
+width: 40%;
+height: 50%;
+
+}
+
+.img_certificate{
+position: absolute ;
+width: auto;
+height: 236px;
+
+}
+
+.first{
+z-index: 3;
+left: 15%;
+top: 20px;
+height: 200px;
+width: auto;
+}
+
+.second{
+z-index: 5;
+left: 50%;
+
+}
+
+
+.third{
+z-index: 3;
+left: 95%;
+top: 15px;
+height: 205px;
+width: auto;
+}
+
+
+
+
+
+/* ///////////////////////////////////// */
+
+
