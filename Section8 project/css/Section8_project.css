@@ -2,8 +2,9 @@
 background-image: url(../img/section8_background.png);
 background-repeat: no-repeat;
 background-size: cover;
-width: 360px;
+width: 100%;
 height: auto;
+height: 500px;
 }
 
 .section8__text{
@@ -41,10 +42,20 @@ text-align: center;
 margin: auto;
 color: #ffffff;
 }
+.section8_text_row{
+    font-size: 16px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 600;
+    width: 200px;   
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+}
 
 
-
-
+.section8_planet_img{
+    display: none;
+}
 .section8__sertificate{
 position: relative;
 width: 40%;
@@ -61,7 +72,7 @@ height: 236px;
 
 .first{
 z-index: 3;
-left: 15%;
+left: 25%;
 top: 20px;
 height: 200px;
 width: auto;
@@ -69,14 +80,14 @@ width: auto;
 
 .second{
 z-index: 5;
-left: 50%;
+left: 60%;
 
 }
 
 
 .third{
 z-index: 3;
-left: 95%;
+left: 115%;
 top: 15px;
 height: 205px;
 width: auto;
@@ -87,5 +98,92 @@ width: auto;
 
 
 /* ///////////////////////////////////// */
+@media ( min-width: 768px){
 
+.section8{
+    width: 100%;
+    background-image: url(../img/section8_background_tablet.png);
+    background-position: center ;
+    height: 660px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.section8__text{
+    width: 300px;
+    margin-right: 0;
+}
+.section8__text--title{
+    text-align: left;
+    margin-left: 130px;
+    margin-bottom: 45px;
+}
+.section8__text--info{
+    text-align: left;
+    margin-left: 130px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.section8_text_row{
+    font-size: 16px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 600;
+    width: 200px;
+    margin: auto;
+    color: #ffffff;
+    text-align: start;
+}
+.section8_planet_img{
+    display: inline-block;
+    position: absolute;
+    bottom: 55%;
+    left: 55%;
+    width: 200px;
+}
+.section8__sertificate{
+    margin-left: 90px;
+    background-image: url(../img/confeti_tablet.png);
+    width: 900;
+    height: auto;
+    
+}
+.img_certificate{
+    width: 230px;
+    height: auto;
+    /* -webkit-box-shadow: 6px 20px 26px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 20px 26px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 20px 26px 0px rgba(0,0,0,0.75); */
+}
+
+.first{
+    left: 35%;
+    height: auto;
+    width: 190px;
+}
+.second{
+    left: 60%;
+}
+
+.third{
+    left: 99%;
+    height: auto;
+    width: 190px;
+}
+
+
+
+}
+
+/* ////////////////////////////////////////// */
+
+
+@media ( min-width: 1200px){
+
+
+
+
+
+
+
+
+}
 
