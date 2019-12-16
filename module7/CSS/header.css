@@ -1,0 +1,51 @@
+.menu{
+display: flex;
+justify-content: space-evenly;
+margin-top: 10px;
+margin-bottom: 120px;
+width: 1200px;
+}
+
+.logo{
+font-size: 36px;
+color: #fed136;
+font-family: 'Satisfy', cursive; 
+
+}
+.menu_nav{
+width: 650px;
+}
+
+.nav{
+display: flex;
+justify-content: space-between;
+}
+
+.nav_item{
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+.nav_item:hover{
+    color: #fed136;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,179 @@
+.site{
+
+
+}
+.main{
+
+}
+
+.services{
+text-align: center;
+
+}
+.servisec_logo{
+display: flex;
+flex-direction: column;
+font-family: 'Montserrat', sans-serif;
+}
+
+.logo_services_icon{
+font-size: 40px;
+font-weight: 800;
+text-transform: uppercase;
+
+}
+
+
+.services_logo_text{
+font-size: 16px;
+color: #777777;
+margin-bottom: 100px;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 135px;
+}
+.card{
+    content: "";
+    width: 300px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.card_logo{
+font-size: 18px;
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;
+margin-bottom: 20px;
+}
+.№1::before{
+    content: "";
+    display: block;
+    height: 75px;
+    width: 75px;
+   background-image: url(../img/box.jpg);
+   background-repeat: no-repeat;
+   margin-left: 120px;
+}
+.№2::before{
+    content: "";
+    display: block;
+    height: 75px;
+    width: 75px;
+   background-image: url(../img/computer.jpg);
+   background-repeat: no-repeat;
+   margin-left: 120px;
+}
+.№3::before{
+    content: "";
+    display: block;
+    height: 75px;
+    width: 75px;
+   background-image: url(../img/key.jpg);
+   background-repeat: no-repeat;
+   margin-left: 120px;
+}
+.card_text{
+font-size: 15px;
+color: #777777;
+width: 300px;
+}
+
+
+/* ------------ */
+
+.section{
+height: auto;
+background-color: black;
+width: 100%;
+
+}
+.contact{
+    /*  background-image: url(../img/Background.jpg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: auto; */
+    text-align: center;
+
+} 
+.section_logo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.section_text{
+font-size: 16px;
+margin-bottom: 75px;
+color: #777777;
+}
+.forms{
+
+}
+.info{
+    display: flex;
+    margin-bottom: 30px;
+}
+.user_info{
+    margin-left: 20px;
+}
+.form{
+    width: 400px;
+    height: 60px;
+}
+
+
+.input{
+    width: 600px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.input2{
+    margin-top: 50px;
+}
+
+.textarea{
+    margin-left: 50px;
+}
+.massage{
+
+}
+
+.sand{
+    display: block;
+}
+
+
+
+
+.button{
+background-color: #fed136;
+border: #fed136;
+width: 300px;
+height: 100px;
+margin-left: 600px;
+margin-bottom: 50px;
+
+}
+
+
+.button_text{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+
+
+
+
+
