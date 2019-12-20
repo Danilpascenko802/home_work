@@ -2,19 +2,22 @@
 background-image: url(../img/section8_background.png);
 background-repeat: no-repeat;
 background-size: cover;
-width: 100%;
-height: auto;
-height: 430px;
+/* width: 100%; */
+/* height: auto; */
+/* height: 430px; */
 background-position: 0% 100%;
-margin-bottom: 100px; /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+margin-bottom: 55px;
+padding-bottom: 20px;
+/* margin-bottom: 100px;  */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }
 
 .section8__text{
-display: flex;
-flex-direction: column;
-justify-content: center;
+/* display: flex; */
+/* flex-direction: column; */
+/* justify-content: center; */
 /* margin-top: 30px; */
-padding-top: 30px;
+padding-top: 40px;
 margin-bottom: 30px;
 }
 
@@ -26,22 +29,27 @@ margin-bottom: 30px;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .section8__text--title::before{
 content: "[";
 color: #fec12b;
+display: inline-block;
+margin-right: 5px;
 }
 .section8__text--title::after{
 content: "]";
 color: #fec12b;
+display: inline-block;
+margin-right: 5px;
 }
+
 
 .section8__text--info{
 font-size: 16px;
 font-family: 'Didact Gothic', sans-serif;
-font-weight: 600;
-width: 200px;
+font-weight: 700;
+/* width: 200px; */
 text-align: center;
 margin: auto;
 color: #ffffff;
@@ -50,7 +58,7 @@ color: #ffffff;
     font-size: 16px;
     font-family: 'Didact Gothic', sans-serif;
     font-weight: 600;
-    width: 200px;   
+    /* width: 200px;    */
     text-align: center;
     margin: auto;
     color: #ffffff;
@@ -62,39 +70,49 @@ color: #ffffff;
 }
 .section8__sertificate{
 position: relative;
-width: 40%;
-height: 50%;
+width: 100%;
+margin: auto;
+text-align: center;
+/* height: 50%; */
 
 }
 
 .img_certificate{
-position: absolute ;
-width: auto;
-height: 236px;
+/* position: absolute ; */
+width: 143px;
+/* height: 236px; */
+height: auto;
 
 }
 
 .first{
-z-index: 3;
+    width: 162px;
+    position: absolute;
+    left: 50%;
+    top: -5%;
+    transform: translate(-50%, 0);
+    z-index: 5;
+
+/* z-index: 3;
 left: 20%;
 top: 20px;
 height: 200px;
-width: auto;
+width: auto; */
 }
 
 .second{
-z-index: 5;
-left: 60%;
+/* z-index: 5; */
+/* left: 60%; */
 
 }
 
 
 .third{
-z-index: 3;
-left: 115%;
-top: 15px;
-height: 205px;
-width: auto;
+/* z-index: 3; */
+/* left: 115%; */
+/* top: 15px; */
+/* height: 205px; */
+/* width: auto; */
 }
 
 
@@ -104,226 +122,362 @@ width: auto;
 /* ///////////////////////////////////// */
 @media ( min-width: 768px){
 
-.section8{
-    width: 100%;
-    background-image: url(../img/section8_background_tablet.png);
-    background-position: center ;
-    height: 660px;
-    padding-top: 50px;
-    margin-bottom: 100px;
-}
-.section8__text{
-    display: flex;
-    text-align: center;
-    width: 100%;
-    margin-right: 0;
-}
-
-.section8__text--title{
-    text-align: left;
-    margin-left: 80px;
-    margin-bottom: 45px;
-    font-size: 25px;
-}
-
-.section8__text--info{
-    width: 300px;
-    text-align: left;
-    margin-left: 80px;
-    font-size: 25px;
-    font-weight: 800;
-    margin-right: 100px;
-}
-
-.section8_text_row{
-    font-size: 25px;
-    font-family: 'Didact Gothic', sans-serif;
-    font-weight: 600;
-    margin: auto;
-    color: #ffffff;
-    text-align: start;
-}
-.section8_planet_img{
-    display: inline-block;
-    position: absolute;
-    bottom: 85%;
-    left: 55%;
-    width: 235px;
-}
-.section8__sertificate{
-    margin-left: 90px;
-    /* background-image: url(../img/confeti_tablet.png); */
-    width: 900;
-    height: auto;
-    opacity: 1 ;
-    z-index: 9;
+    .section8{
+        /* width: 100%; */
+        background-image: url(../img/section8_background_tablet.png);
+        /* background-position: center ; */
+        /* height: 660px; */
+        padding-top: 0;
+        background-size: cover;
+        /* margin-bottom: 100px; */
+    }
     
-}
-.img_certificate{
-    width: 230px;
-    height: auto;
-
-}
-
-.first{
-    left: 35%;
-    height: auto;
-    width: 190px;
-}
-.section8__div_second_sertificate{
-    background-image: url(../img/confeti_tablet.png);
-    background-repeat: no-repeat;
-    width: 600px;
-    height: 500px;
-}
-.second{
-    left: 60%;
-    bottom: 38%;
-    /* background-image: url(../img/confeti_tablet.png); */
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
-}
-
-.third{
-    left: 99%;
-    height: auto;
-    width: 190px;
-}
-
-
-
-}
-
+    .wraper {
+        position: relative;
+    }
+    
+    .section8__text{
+        /* display: flex; */
+        text-align: left;
+        padding-top: 0;
+        /* margin-bottom: 70px; */
+        margin-bottom: 0;
+        padding-left: 80px;
+        /* width: 100%; */
+        /* margin-right: 0; */
+    }
+    
+    .section8__text--title{
+        text-align: left;
+        /* margin-left: 80px; */
+        /* margin-bottom: 45px; */
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+    
+    .section8__text--info{
+        /* width: 300px; */
+        /* text-align: left; */
+        /* margin-left: 80px; */
+        font-size: 25px;
+        /* font-weight: 800; */
+        /* margin-right: 100px; */
+    }
+    
+    .section8_text_row{
+        font-size: 25px;
+        /* font-family: 'Didact Gothic', sans-serif; */
+        /* font-weight: 600; */
+        /* margin: auto; */
+        /* color: #ffffff; */
+        /* text-align: start; */
+        text-align: left;
+        letter-spacing: 1px;
+    }
+    .section8_planet_img{
+        display: inline-block;
+        position: absolute;
+        /* bottom: 85%; */
+        top: 10%;
+        left: 55%;
+        width: 235px;
+    }
+    .section8__sertificate{
+        /* margin-left: 90px; */
+        /* background-image: url(../img/confeti_tablet.png); */
+        /* width: 900; */
+        /* height: auto; */
+        /* opacity: 1 ; */
+        /* z-index: 9; */
+        padding-top: 70px;
+        /* padding-bottom: 100px; */
+        background-image: url("../img/confeti_768.png");
+        /* z-index: 10; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img_certificate{
+        width: 230px;
+        /* height: auto; */
+       
+    
+    }
+    
+    .first{
+        /* left: 35%; */
+        /* height: auto; */
+        /* width: 190px; */
+        width: 250px;
+        top: 15%;
+    }
+    /* .section8__div_second_sertificate{
+        background-image: url(../img/confeti_tablet.png);
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 500px; */
+    /* } */
+    .second{
+        /* left: 60%; */
+        /* bottom: 38%; */
+        /* background-image: url(../img/confeti_tablet.png); */
+        /* background-repeat: no-repeat; */
+        /* width: 100%;
+        height: auto; */
+    }
+    
+    .third{
+        /* left: 99%; */
+        /* height: auto; */
+        /* width: 190px; */
+    }
+    
+    
+    
+    }
+    
 /* ////////////////////////////////////////// */
 
 
 @media ( min-width: 1200px){
-
-.section8{
-    background-image: url(../img/section8_background_1200px.png);
-    width: 1200px;
-    height: 700px;
-    background-size: cover;
-    background-position: center; 
-    margin-right: 0;
-    background-position: center;
-
-}
-.wraper{
-    display: flex;
-    margin-left: -100px;
-    /* margin-right: 200px; */
+    .section8{
+        background-image: url(../img/section8_background_1200px.png);
+        /* width: 1200px; */
+        height: 600px;
+        background-size: cover;
+        /* background-position: center;  */
+        /* margin-right: 0; */
+        /* background-position: center; */
+    margin-bottom: 80px;
+    padding-bottom: 135px;
+    }
+    .wraper{
+        position: relative;
+        display: flex;
+        padding: 0 0 0 170px;
+        
+        /* margin-left: -100px; */
+        /* margin-right: 200px; */
+        
+    }
+    .section8__text{
+        /* padding-top: 95px; */
+        width: 380px;
+        padding-left: 0;
+        margin-top: 160px;
+        /* margin-left: 210px; */
+        /* display: inline-block; */
+        /* margin-right: 10px; */
+      
+    }
     
-}
-.section8__text{
-    margin-left: 210px;
-    display: inline-block;
-    margin-right: 10px;
-  
-}
-
-.section8__text--title{
-    margin-top: 170px;
-}
-.section8__text--info{
-    margin-right: 0;
-}
-
-
-.section8_planet_img{
-    top: 20%;
-    left: 85%;
-    width: 300px;
+    .section8__text--title{
+        font-size: 20px;
+        /* margin-top: 170px; */
+    }
+    .section8__text--info{
+        
+        /* margin-left: 210px; */
+        /* margin-right: 0; */
+        /* font-size: 25px; */
+    }
     
-}
-.section8__sertificate{
-    margin-left: 0px;
-    width: 700px;
-    height: 700px;
-    position: relative;
-    /* top: 100%; */
-    /* bottom: ; */
-}
-.section8__div_second_sertificate{
-    background-image: url(../img/confeti_1200px.png);
-    width: 1000px;
-    height: 1200px;
-    position: absolute;
-    left: -75%;
-    top: 20%;
+    .section8_text_row {
+        /* font-size: 25px; */
+    }
     
-}
-.first{
-    position: absolute;
-    top: 25%;
-    left: -83%;
-    right: 500px;
-    width: 235px;
-}
+    .section8_planet_wrapper {
+        width: 134px;
+        height: 150px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+    }
+    
+    .section8_planet_img{
+        position: absolute;
+        top: 90%;
+        left: 85%;
+        width: 300px;
+        height: 220px;
+        
+    }
+    .section8__sertificate{
+        padding-right: 170px;
+        padding-top: 95px;
+        
+        width: 700px;
+    }
+    .section8__div_second_sertificate{
+        position: absolute;
+        background-repeat: no-repeat;
+        background-image: url(../img/confeti_1200px.png);
+        width: 600px;
+        height: 600px;
+        
+        top: -85%;
+        left: -5%;
+    }
+    
+    .img_certificate {
+        
+        width: 235px;
+    }
+    
+    .first{
+        
+        top: 5%;
+        left: 20%;
+        width: 220px;
+    }
+    
+    .second{
+        position: absolute;
+        top: -30%;
+        left: 15%;
+        width: 265px;
+        z-index: 5;
+    }
+    
+    .third{
+        position: absolute;
+        top: 10%;
+        left: 35%;
+        width: 215px;
+    }
+    
+    
+    
+    }
+    
+    
+    @media ( min-width: 1920px){
+    
+        .section8{
+            width: 100%;
+            /* max-width: 1920px; */
+            background-image: url(../img/section8_background_1920px.png);
+            background-size: cover;
+            height: 900px;
 
-.second{
-    position: absolute;
-    top: 18%;
-    left: -60%;
-    width: 300px;
-
-}
-
-.third{
-    position: absolute;
-    top: 23%;
-    left: -20%;
-    width: 250px;
-}
-
-
-
-}
-
-
-@media ( min-width: 1920px){
-.section8{
-    background-image: url(../img/section8_background_1920px.png);
-    background-size: cover;
-    width: 100%;
-  }  
- .section8__text{
-     margin-left: 400px;
-     margin-right: 330px;
-     width: 1100px;
- }
-.section8__text--title{
-    font-size: 30px;
-}
-.section8__text--info{
-    width: 450px;
-}
-.section8_text_row{
-    font-size: 35px;
-}
-.section8_planet_img{
-    left: 35%;
-    top: 7%;
-    width: 250px;
-}
-.section8__div_second_sertificate{
-    background-image: url(../img/confeti_1920px.png);
-    left: -100%;
-    top: 15%;
-    width: 1920px;
-    height: 1300px;
-}
-.first{
-    width: 340px;
-}
-.second{
-    width: 420px;
-}
-.third{
-    width: 360px;
-}
-
-
-
-}
+            margin-bottom: 100px;
+        }
+        .wraper{
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 0 0 370px;        
+        }
+        .section8__text{
+            padding-top: 50px;
+            width: 520px;
+           
+        }
+        
+        .section8__text--title{
+            font-size: 30px;
+            margin-bottom: 55px;
+        }
+        .section8__text--info{}
+        
+        .section8_text_row {
+            font-size: 35px;
+        }
+        
+        .section8_planet_wrapper {
+            width: 210px;
+            height: 160px;
+            position: absolute;
+            left: 40%;
+            top: 5%;
+            overflow: visible;
+        }
+        
+        .section8_planet_img{
+            /* position: static; */
+            top: 10%;
+            left: 35%;
+        }
+        .section8__sertificate{
+            padding-right: 260px;
+            padding-top: 200px;
+            width: 920px;
+            margin: 0;
+        }
+    
+        .img_certificate {
+            width: 320px;
+        }
+        .section8__div_second_sertificate{
+            
+            width: 900px;
+            height: 1900px;
+            left: 0%;
+            top: 25%;
+            background-image: url(../img/confeti_1920px.png);
+            /* padding: 900px; */
+        }
+        .first{
+            top: 40%;
+            left: 25%;
+            width: 370px;
+            /* width: 350px; */
+        }
+        .second{
+        
+            top: 30%;
+            left: 20%;
+            width: 440px;
+            z-index: 5;
+        }
+        .third{
+            top: 40%;
+            left: 45%;
+            width: 360px;
+        } 
+    
+    /*     
+    .section8{
+        background-image: url(../img/section8_background_1920px.png);
+        background-size: cover;
+        width: 100%;
+      }  
+     .section8__text{
+         margin-left: 400px;
+         margin-right: 330px;
+         width: 1100px;
+     }
+    .section8__text--title{
+        font-size: 30px;
+    }
+    .section8__text--info{
+        width: 450px;
+    }
+    .section8_text_row{
+        font-size: 35px;
+    }
+    .section8_planet_img{
+        left: 35%;
+        top: 7%;
+        width: 250px;
+    }
+    .section8__div_second_sertificate{
+        background-image: url(../img/confeti_1920px.png);
+        left: -100%;
+        top: 15%;
+        width: 1920px;
+        height: 1300px;
+    }
+    .first{
+        width: 340px;
+    }
+    .second{
+        width: 420px;
+    }
+    .third{
+        width: 360px;
+    } */
+    
+    
+    
+    }
