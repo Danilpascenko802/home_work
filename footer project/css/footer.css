@@ -116,13 +116,7 @@
     .footer__moreinfo--text:last-child{
         margin-bottom: 0;
     }
-    .footer__copyright__link{
-        display: inline-block
-        color: #6b6f7a; /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-        cursor: pointer;  /* ??????????????????????????????? */
-        letter-spacing: 0.8px; /* ????????????????????????????????????/ */
-    }
-
+    
     
     /* ///////////////////////////////////////////// */
     @media ( min-width: 768px){
@@ -226,38 +220,46 @@
     @media ( min-width: 1200px){
     
     .footer{
-        background-position: right;
+        /* background-position: right; */
         background-image: url(../img/footer_bg_1200px.png);
-        padding-top: 100px;
+        padding-top: 90px;
+        background-size: cover;
         /* margin-top: 100px; */
     }
+    .footer__logo{
+        padding-top: 0;
+        }
+        .footer__content_wrapper{
+            margin-bottom: 0;
+        }
     .footer_content_box{
         
         width: 470px;
-        flex-wrap: wrap;
+        align-items: center;
+        /* flex-wrap: wrap; */
         position: relative;
     }
     .footer__address{
-        font-size: 16px;
+        /* font-size: 16px; */
 
     }
     .footer__contact_number{
-        font-size: 16px;
+        /* font-size: 16px; */
     }
 
 
     .button{
         display: inline-block;
-        margin-top: 0;
-        margin-right: 250px;
-        margin-left: 0;
-        margin-bottom: 90px;
+        /* margin-top: 0; */
+        /* margin-right: 250px; */
+        /* margin-left: 0; */
+        /* margin-bottom: 90px; */
 
-        width: 260px;
-        height: 65px;
+        /* width: 260px; */
+        /* height: 65px; */
 
         position: absolute;
-        bottom: 0px;
+        bottom: 80px;
         left: 550px;
 
 
@@ -265,7 +267,9 @@
 
     .footer__social_images{
         position: absolute;
-        top: 65px;
+        
+        right: -80%;
+        bottom: -35px;
     }
 
     .footer__contact_number{
@@ -279,26 +283,21 @@
     .Footer_img{
         position: absolute;
         right: 3%;
-        top: 150px;
+        top: 60px;
         width: 180px;
     }
-    .footer__social_images{
-    margin-right: 0;
-    margin-left: 90px;
-    margin-bottom: 0;
-    margin-top: 120px;
-    margin-left: 700px;
-    }
+    
     .footer_copyright__box{
         display: inline-block;
         display: flex;
         justify-content: space-between;
         width: 600px;
-        margin-right: 0;
+        padding-bottom: 80px;
+        /* margin-right: 0;  */
 
     }
 .footer__copyright__link{
-    font-size: 13px;
+    /* font-size: 13px; */
 }
 
 .footer__moreinfo--text{
@@ -315,52 +314,59 @@
 
 .footer{
     background-image: url(../img/footer_bg_1920px.png);
-    padding-top: 160px;
-    background-position: center;
+    padding-top: 150px;
+    /* background-position: center; */
     
 }
 .wrapper{
-    
+    padding-left: 350px;
 }
 
 .footer__link{
-    margin-left: 320px;
-    margin-top: 0;
-    padding-top: 0px;
+    /* margin-left: 320px; */
+    /* margin-top: 0; */
+    /* padding-top: 0px; */
     /* padding-bottom: 200px; */
     /* margin-bottom: 100px; */
 }
-
+.footer__social_images{
+    left: 80%;
+}
 
 .footer__content_wrapper{
-    margin-left: 320px;
+    /* margin-left: 320px; */
 }
 .Footer_img{
     width: 275px;
-}
-
-.footer_copyright__box{
-    margin-left: 320px;
-    padding-bottom: 100px;
-}
-.button{
-    margin-left: 80px; 
-    width: 100px ;
-    height: ;
+    top: 20px;
 }
 .footer_content_box{
-    width: 500px;
+    justify-content: start;
+    /* width: 300px; */
+    /* justify-content: space-between; */
+}
+.footer__contact__list{
+    /* display: inline-block; */
+
+}
+.footer_address_list{
+    margin-right: 120px;
+    /* display: inline-block; */
+}
+.footer_copyright__box{
+    /* margin-left: 320px; */
+    /* padding-bottom: 100px; */
+}
+.button{
+    margin-left: 60px; 
+    /* width: 100px ; */
+    /* height: ; */
+}
+.footer_content_box{
+    width: 900px;
 }
 
-/* ************ */
-
-
-
-
-
-
-
-
+/* ***************************** */
 
 
 
