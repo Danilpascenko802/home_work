@@ -1,6 +1,7 @@
 .menu{
+    margin-left: 250px;
 display: flex;
-justify-content: space-evenly;
+justify-content: space-between;
 margin-top: 10px;
 margin-bottom: 120px;
 width: 1200px;
